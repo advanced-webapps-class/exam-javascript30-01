@@ -132,7 +132,7 @@
 +   color: #ffc600;
 + }
 ```
-window keydown 이벤트리스터 만들기
+## window keydown 이벤트리스터 만들기
 
 📄 app.js
 ```diff
@@ -145,7 +145,7 @@ window keydown 이벤트리스터 만들기
 + window.addEventListener('keydown', playSound);
 
 ```
-audio태그로 재생할 사운드 불러오기
+## audio태그로 재생할 사운드 불러오기
 
 📄 index.html
 ```diff
@@ -167,7 +167,7 @@ audio태그로 재생할 사운드 불러오기
   </body>
 
 ```
-keydown발생시마다 맞는 오디오dom을 찾아서 play()
+## keydown발생시마다 맞는 오디오dom을 찾아서 play()
 
 📄 app.js
 ```diff
@@ -189,7 +189,7 @@ keydown발생시마다 맞는 오디오dom을 찾아서 play()
   window.addEventListener('keydown', playSound);
 
 ```
-해당 dom에도 시각적인 반응효과  style로 추가
+## 해당 dom에도 시각적인 반응효과  style로 추가
 
 📄 app.js
 ```diff
@@ -217,7 +217,7 @@ keydown발생시마다 맞는 오디오dom을 찾아서 play()
 + }
 
 ```
-반응효과가 끝날때(transitionend) 다시 원래 key모양으로 원복
+## 반응효과가 끝날때(transitionend) 다시 원래 key모양으로 원복
 
 📄 app.js
 ```diff
