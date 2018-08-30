@@ -14,3 +14,11 @@ function playSound(e) {
 }
 
 window.addEventListener('keydown', playSound);
+
+const keys = Array.from(document.querySelectorAll('.key'));
+keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+
+function removeTransition(e) {
+  if (e.propertyName !== 'transform') return;
+  e.target.classList.remove('playing');
+}
