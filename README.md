@@ -27,42 +27,6 @@
 
 </html>
 ```
-📄 sounds/boom.wav
-```wav
-
-```
-📄 sounds/clap.wav
-```wav
-
-```
-📄 sounds/hihat.wav
-```wav
-
-```
-📄 sounds/kick.wav
-```wav
-
-```
-📄 sounds/openhat.wav
-```wav
-
-```
-📄 sounds/ride.wav
-```wav
-
-```
-📄 sounds/snare.wav
-```wav
-
-```
-📄 sounds/tink.wav
-```wav
-
-```
-📄 sounds/tom.wav
-```wav
-
-```
 📄 style.css
 ```css
 
@@ -172,7 +136,6 @@ window keydown 이벤트리스터 만들기
 
 📄 app.js
 ```diff
-- //js+ //js
 + 
 + function playSound(){
 + 
@@ -245,7 +208,7 @@ keydown발생시마다 맞는 오디오dom을 찾아서 play()
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;
-- }+ }
+}
 + 
 + .playing {
 +   transform: scale(1.1);
