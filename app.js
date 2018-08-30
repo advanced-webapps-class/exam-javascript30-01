@@ -9,6 +9,8 @@ function playSound(e) {
 
   audio.currentTime = 0;
   audio.play();
+
+  key.classList.add('playing');
 }
 
 window.addEventListener('keydown', playSound);
